@@ -1,14 +1,14 @@
-// Dette er Dalai Solutions AS sin eiendom, på leie til Norway Cup / Bækkelagets SK. Bruk utover avtale er ikke tillat.    
+// Dette er Dalai Solutions AS sin eiendom, på leie til Oslo Maraton AS. Bruk utover avtale er ikke tillat.    
 let inputPlaceholder = " ";
 let widgetDescription = " ";
 let browserUrl = window.location.href;
 let browser_url = window.location.href;
 
 
- if (browserUrl.includes('/?sprak=3')) {
+ if (browserUrl.includes('/en')) {
 widgetDescription = "I'm pretty smart, so just ask! Don't share any sensitive personal information with me.";
 inputPlaceholder = "Message...";
-} else if (browserUrl.includes('/?sprak=1')) {
+} else if (browserUrl.includes('/no')) {
 widgetDescription = "Jeg er ganske smart, så bare spør! Ikke gi meg sensitiv personinformasjon.";
 inputPlaceholder = "Skriv melding...";
 } else {
