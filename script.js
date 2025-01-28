@@ -160,7 +160,7 @@ const FormExtension = {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
       v.onload = function() {
         window.voiceflow.chat.load({
-          verify: { projectID: '67436de76414aa7986e35112' },
+          verify: { projectID: '6788e4498be20586cd1419e8' },
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
           assistant: {
