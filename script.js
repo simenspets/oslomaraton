@@ -6,13 +6,13 @@ let browser_url = window.location.href;
 
 
  if (browserUrl.includes('/en')) {
-widgetDescription = "I'm pretty smart, so just ask! Don't share any sensitive personal information with me.";
+widgetDescription = "I'm pretty smart, but I need a couple of seconds to think💡 I'm still learning, so I might make small mistakes.";
 inputPlaceholder = "Message...";
 } else if (browserUrl.includes('/no')) {
-widgetDescription = "Jeg er ganske smart, så bare spør! Ikke gi meg sensitiv personinformasjon.";
+widgetDescription = "Jeg er ganske smart, men trenger et par sekunder til å tenke meg om💡 Jeg er fortsatt under opplæring, og kan derfor gjøre små feil.";
 inputPlaceholder = "Skriv melding...";
 } else {
-widgetDescription = "Jeg er ganske smart, så bare spør! Ikke gi meg sensitiv personinformasjon.";
+widgetDescription = "Jeg er ganske smart, men trenger et par sekunder til å tenke meg om💡 Jeg er fortsatt under opplæring, og kan derfor gjøre små feil.";
 inputPlaceholder = "Skriv melding...";
 }
 
