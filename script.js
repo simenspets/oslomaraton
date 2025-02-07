@@ -9,6 +9,7 @@ let browser_url = window.location.href;
  if (browserUrl.includes('/en')) {
 widgetDescription = "I'm pretty smart, but I need a couple of seconds to think💡 I'm still learning, so I might make small mistakes.";
 inputPlaceholder = "Message...";
+widgetStylesheet = "https://kristoman-rikardo.github.io/buttonlabels/en.css";
 } else if (browserUrl.includes('/no')) {
 widgetDescription = "Jeg er ganske smart, men trenger et par sekunder til å tenke meg om💡 Jeg er fortsatt under opplæring, og kan derfor gjøre små feil.";
 inputPlaceholder = "Skriv melding...";
