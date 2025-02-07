@@ -11,6 +11,7 @@ inputPlaceholder = "Message...";
 } else if (browserUrl.includes('/no')) {
 widgetDescription = "Jeg er ganske smart, men trenger et par sekunder til å tenke meg om💡 Jeg er fortsatt under opplæring, og kan derfor gjøre små feil.";
 inputPlaceholder = "Skriv melding...";
+widgetStylesheet = "https://kristoman-rikardo.github.io/buttonlabels/no.css"
 } else {
 widgetDescription = "Jeg er ganske smart, men trenger et par sekunder til å tenke meg om💡 Jeg er fortsatt under opplæring, og kan derfor gjøre små feil.";
 inputPlaceholder = "Skriv melding...";
@@ -151,6 +152,7 @@ const FormExtension = {
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
           assistant: {
+             stylesheet: widgetStylesheet,
              extensions: [FormExtension],
              banner: {
                description: widgetDescription,
