@@ -1,0 +1,14 @@
+  ._1bvgnii9 {
+    color: transparent;  
+    position: relative;
+  }
+  
+  ._1bvgnii9::after {
+    content: "Got a question?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
+    color: #fff;
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(15%); /*Flytter teksten for å gjøre plass til ikonet, større prosent -> mer mot høyre*/
+  } 
